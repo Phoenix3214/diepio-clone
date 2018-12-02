@@ -3,7 +3,7 @@
   "version": "2.0.0",
   "description": "A simple template project to quickly get up and running with Phaser.",
 "scripts": {
-        "start": "cd src && cd game && node main.js"
+        "start": "npm install grunt && npm install -g grunt-cli && grunt"
     },
   "repository": "http://github.com/gamecook/phaser-template",
   "author": "Jesse Freeman",
