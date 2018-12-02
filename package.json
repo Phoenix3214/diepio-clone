@@ -2,9 +2,9 @@
   "name": "game",
   "version": "2.0.0",
   "description": "A simple template project to quickly get up and running with Phaser.",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+"scripts": {
+        "start": "cd src && cd game && node main.js"
+    },
   "repository": "http://github.com/gamecook/phaser-template",
   "author": "Jesse Freeman",
   "devDependencies": {
