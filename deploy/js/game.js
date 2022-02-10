@@ -129,7 +129,7 @@ class MountedWeaponStats{
 class WeaponStats {
   constructor(bulletStats, reloadTime, range) {
     this.bulletStats = bulletStats;
-    this.reloadTime = reloadTime;
+    this.reloadTime = 5;
     this.range = range;
   }
 }
