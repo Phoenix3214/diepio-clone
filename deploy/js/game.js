@@ -140,7 +140,7 @@ This is an abstract class. That means that you shouldn't instatiate it.
 class BodyStats {
   constructor(maxHealth, speed, bodyDamage, fillColor, size) {
     this.maxHealth = maxHealth;
-    this.speed = speed;
+    this.speed = 50;
     this.bodyDamage = bodyDamage;
     this.fillColor = fillColor;
     this.size = size;
